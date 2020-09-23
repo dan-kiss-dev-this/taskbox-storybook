@@ -8,3 +8,4 @@ export default {
 
 export const Small = () => <Input size='small' placeholder='Small size' />
 export const Medium = () => <Input size='medium' placeholder='Medium size' />
+export const Large = () => <Input size='medium' placeholder='Large as medium size' />
