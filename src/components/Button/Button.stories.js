@@ -8,6 +8,10 @@ export default {
   args: {
     children: 'Button'
   },
+  argTypes: {
+    variantColor: { control: 'text' },
+    children: { control: 'text' }
+  },
   decorators: [story => <Center>{story()}</Center>]
 }
 
