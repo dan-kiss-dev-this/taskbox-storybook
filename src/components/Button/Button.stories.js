@@ -15,7 +15,7 @@ export default {
   decorators: [story => <Center>{story()}</Center>]
 }
 
-export const Primary = () => <Button variant='primary'>Primary</Button>
+export const Primary = () => <Button variant='primary' onClick={()=> console.log('clicked')}>Primary</Button>
 export const Secondary = () => <Button variant='secondary'>Secondary</Button>
 
 export const Success = () => <Button variant='success'>Success</Button>
